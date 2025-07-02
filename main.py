@@ -1,5 +1,5 @@
-# main.py
+from core.app import App
 
-
-class Main:
-    pass
+if __name__ == "__main__":
+    server = App()
+    server.start()
